@@ -12,7 +12,7 @@ body{
     margin: 20px auto;
 }
 
-.cube_circle{
+.cube-circle{
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -20,63 +20,63 @@ body{
     box-sizing: border-box;
     display: inline-block;
 }
-.cube_one{
+.cube-one{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cube_two{
+.cube-two{
     display: flex;
     justify-content: space-between;
     margin: 0px;
 }
-.cube_two .cube_circle:last-child{
+.cube-two .cube-circle:last-child{
     align-self: flex-end;
 }
-.cube_three{
+.cube-three{
     display: flex;
     justify-content: space-between;
     margin: 0px;
 }
-.cube_three .cube_circle:last-child{
+.cube-three .cube-circle:last-child{
     align-self: flex-end;
 }
-.cube_three .cube_circle:nth-child(2){
+.cube-three .cube-circle:nth-child(2){
     align-self: center;
 }
-.cube_four {
+.cube-four {
     display: flex;
     justify-content: space-between;
 }
-.cube_four .cube_line{
+.cube-four .cube-line{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.cube_five{
+.cube-five{
     display: flex;
     margin: 0px 20px 0px;
     justify-content: space-between;
 }
-.cube_five .cube_line{
+.cube-five .cube-line{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.cube_five .cube_circle_center{
+.cube-five .cube-circle-center{
     align-self: center;
     height: 30px;
 }
-.cube_six{
+.cube-six{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.cube_six .cube_line{
+.cube-six .cube-line{
     display: flex;
     justify-content: space-between;
 }
-.cubes_in_a_line{
+.cubes-in-a-line{
     display: flex;
     justify-content: center;
 }
