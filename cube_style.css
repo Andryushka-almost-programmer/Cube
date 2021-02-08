@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    background-color:black;
+}
+.cube{
+    border: 8px solid red;
+    border-radius: 20px;
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+.cube_circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.cube_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cube_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.cube_two .cube_circle:last-child{
+    align-self: flex-end;
+}
+.cube_three{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.cube_three .cube_circle:last-child{
+    align-self: flex-end;
+}
+.cube_three .cube_circle:nth-child(2){
+    align-self: center;
+}
+.cube_four {
+    display: flex;
+    justify-content: space-between;
+}
+.cube_four .cube_line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cube_five{
+    display: flex;
+    margin: 0px 20px 0px;
+    justify-content: space-between;
+}
+.cube_five .cube_line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cube_five .cube_circle_center{
+    align-self: center;
+    height: 30px;
+}
+.cube_six{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cube_six .cube_line{
+    display: flex;
+    justify-content: space-between;
+}
+.cubes_in_a_line{
+    display: flex;
+    justify-content: center;
+}
